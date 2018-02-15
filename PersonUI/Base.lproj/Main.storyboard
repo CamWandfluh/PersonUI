@@ -20,31 +20,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTF-Be-hsv">
-                                <rect key="frame" x="20" y="30" width="50" height="21"/>
+                                <rect key="frame" x="36" y="30" width="50" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SS-ga-xLZ">
-                                <rect key="frame" x="35" y="71" width="35" height="21"/>
+                                <rect key="frame" x="51" y="71" width="35" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYN-Nk-vF1">
-                                <rect key="frame" x="8.5" y="112" width="61.5" height="21"/>
+                                <rect key="frame" x="24.5" y="112" width="61.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fp1-MX-vWd">
-                                <rect key="frame" x="80" y="26" width="279" height="30"/>
+                                <rect key="frame" x="96" y="26" width="263" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="21" minValue="0.0" maxValue="130" translatesAutoresizingMaskIntoConstraints="NO" id="diV-0R-yYn">
-                                <rect key="frame" x="78" y="66" width="255.5" height="31"/>
+                                <rect key="frame" x="94" y="66" width="239.5" height="31"/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCQ-fP-EMa">
                                 <rect key="frame" x="341.5" y="71.5" width="17.5" height="20.5"/>
@@ -53,7 +53,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="wd4-iT-j6O">
-                                <rect key="frame" x="80" y="108.5" width="117" height="29"/>
+                                <rect key="frame" x="96" y="108.5" width="117" height="29"/>
                                 <segments>
                                     <segment title="Male"/>
                                     <segment title="Female"/>
@@ -83,7 +83,7 @@
                             <constraint firstItem="diV-0R-yYn" firstAttribute="centerY" secondItem="2SS-ga-xLZ" secondAttribute="centerY" id="cmm-TB-GTr"/>
                             <constraint firstItem="fp1-MX-vWd" firstAttribute="centerY" secondItem="DTF-Be-hsv" secondAttribute="centerY" id="dEc-Bw-gBN"/>
                             <constraint firstItem="dCQ-fP-EMa" firstAttribute="centerY" secondItem="2SS-ga-xLZ" secondAttribute="centerY" id="dRp-fl-c8N"/>
-                            <constraint firstItem="DTF-Be-hsv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="etY-PJ-XJR"/>
+                            <constraint firstItem="DTF-Be-hsv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="etY-PJ-XJR"/>
                             <constraint firstItem="Dnu-Bz-8DD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gM2-9L-dbm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dCQ-fP-EMa" secondAttribute="trailing" id="i0p-sV-VPV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fp1-MX-vWd" secondAttribute="trailing" id="ovZ-yz-CHh"/>
